@@ -1,0 +1,40 @@
+@import "~bootstrap/scss/bootstrap";
+
+.header-content {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding: 0 15px;
+}
+
+.header-info {
+  border-bottom: 1px solid #93999e;
+}
+
+.list-group {
+  flex-wrap: wrap;
+  color: var(--bs-grey) !important;
+  list-style-type: none;
+
+  justify-content: space-between;
+}
+
+.logo-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-text {
+  color: #000 !important;
+}
+
+.header-button {
+  background: linear-gradient(
+    to right top,
+    #f2be3d,
+    #f8a939,
+    #fb943c,
+    #fb7f43,
+    #f8694c
+  );
+  border: 2px solid rgb(238, 235, 235) !important;
+}
